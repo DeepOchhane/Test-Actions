@@ -1,0 +1,20 @@
+name: Test Workflow Actions
+
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs on: ubuntu-latest
+    steps:
+     - name: Print My Name
+       run: echo "HI Actions Test"
+     - name: Print Goodbye
+       run: echo "Don't Print Anything"
+     - name: Create a file with contents
+       run: echo "something is mising here" >> missing.txt
+     - name: Print the file content
+       run: cat missing.txt
+     - name: check user
+       run: whoami
+    
+    
