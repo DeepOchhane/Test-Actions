@@ -11,7 +11,13 @@ jobs:
   node-install:
     runs-on: ubuntu-latest
     steps:
+     - name: git clone
+       uses: actions/checkout@v3
      - name: setup node
        uses: actions/setup-node@v4
        with:
         node-version: 18
+     - name: download npm dependecies
+       run: npm install
+     - name: test npm
+       run: npm test
