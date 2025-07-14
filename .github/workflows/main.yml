@@ -3,8 +3,9 @@ name: New Depends on wrkflow action
 on: [workflow_dispatch, push]
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-   - name: clone the repository
-     uses: actions/checkout@v4
+  git-clone:
+    runs-on: ubuntu-latest
+    steps:
+     - name: clone the repository
+       uses: actions/checkout@v3
     
