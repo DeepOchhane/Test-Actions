@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   first-job:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
      - name: Print My Name
        run: echo "HI Actions Test"
