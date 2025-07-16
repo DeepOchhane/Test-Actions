@@ -1,0 +1,16 @@
+apiVersion: c1
+kind: Branching-data
+metadata:
+  name: pull-request
+spec:
+  git:
+    main: create "preprod" brnach
+      prepord: app updates or filr update
+
+      push: wholecode
+
+      create: Pull Request
+
+      merge: Pull Request
+
+      switch: to main branch
