@@ -9,8 +9,8 @@ spec:
 
       push: wholecode
 
-      create: Pull Request
+        create: Pull Request
 
       merge: Pull Request
 
-      switch: to main branch
+switch: to main branch
