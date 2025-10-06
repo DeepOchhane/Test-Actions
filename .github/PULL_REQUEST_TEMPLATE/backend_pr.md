@@ -1,7 +1,7 @@
 ## ⚙️ Backend PR (API / Server Changes)
 
-### 📌 ClickUp Task
-[ClickUp Task](https://app.clickup.com/t/XXXXXX)
+### 📌 ClickUp
+ [ClickUp Task](https://app.clickup.com/t/XXXXXX)
 
 ---
 
